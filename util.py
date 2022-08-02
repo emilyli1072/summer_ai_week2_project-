@@ -184,8 +184,8 @@ class PriorityQueue:
         self.count += 1
 
     def pop(self):
-        (_, _, item) = heapq.heappop(self.heap)
-        return item
+        (p, _, item) = heapq.heappop(self.heap)
+        return [p,item]
 
     def isEmpty(self):
         return len(self.heap) == 0
