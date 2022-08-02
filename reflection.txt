@@ -1,0 +1,5 @@
+This was a cool project. I spent a lot of time debugging the DFS algorithm, which was quite frustrating.
+It turned out that I used a_list.remove() instead of a_list.pop(), so it worked after I corrected it. after
+finishing the two questions, I decided to do the two other questions too. I have used weighed graph traversals
+before, so I decided to skip question 3 and just try implementing the a* algorithm, since that is new for me.
+Because of the heuristic and using a priority queue, the time complexity improved to O(E) (E is the number of edges).
